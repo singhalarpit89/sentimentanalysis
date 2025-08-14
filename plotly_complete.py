@@ -571,4 +571,4 @@ def export_data(n_clicks, filtered_data):
     return dcc.send_data_frame(filtered_df.to_csv, "social_sentiment_export.csv")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
